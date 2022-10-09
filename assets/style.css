@@ -107,3 +107,116 @@ main {
     left: 930px;
     top: 50px;
 }
+
+
+
+
+
+/* POPULAR */
+
+.popular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 155px 0px 100px 75px;
+    max-width: 1500px;
+    gap: 38px;
+}
+
+.popular h2 {
+    position: absolute;
+    width: 278px;
+    height: 23px;
+    left: 60px;
+    top: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.product_popular {
+    
+    
+    padding: 15px 3px;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+
+.product_popular img {
+
+    
+    padding: 5px 15px;
+
+
+    background: url(pexels-eneida-nieves-905847.jpg);
+    mix-blend-mode: normal;
+    border-radius: 16px;
+
+}
+
+.popular_info_top h3 {
+    
+    padding: 0px 20px 0px 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.popular_info_mid p {
+    
+    padding: 5px 20px 0px 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.3;
+}
+
+.popular_info_bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 16px 2.5px 17px;
+    
+}
+
+.popular_offer {
+    
+    padding-top: 2.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+.popular_btn {
+    width: 95px;
+    height: 30px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border-radius: 17.5px;
+    cursor: pointer;
+}
+
+.popular_btn p {
+    text-align: center;
+    padding-top: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* POPULAR */
