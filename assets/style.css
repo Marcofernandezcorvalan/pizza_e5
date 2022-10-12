@@ -206,8 +206,8 @@ main {
 
 .categories-conteiner{
     display: flex;
-    gap:60px;
-   margin-top:3%;
+    /*gap:60px;*/ gap: 30px;
+   /*margin-top:3%;*/ margin-top: 30px;
    flex-wrap: wrap;
    justify-content: center;
   
@@ -261,7 +261,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 155px 0px 100px 75px;
-    max-width: 1500px;
+    max-width: 1300px;
     gap: 38px;
 }
 
