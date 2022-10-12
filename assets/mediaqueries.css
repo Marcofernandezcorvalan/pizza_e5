@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px){
+    
+    /* HEADER */
+
+        header{
+            border-bottom: #252525 2px solid;
+            height: 70px;
+            gap:0px;
+            width: 100%;
+            padding: 0px 35px 0px 35px;
+        }
+
+        header img{
+            height: 100%;
+            width: 15%;
+            padding:9px;
+        }
+
+        .navbar{
+            gap:2px;
+            /* width: 20%; */
+            
+        }
+
+        .navbar-list  li a:nth-child(2){
+            display: none;
+        }
+        
+        .navbar-list ul{
+            gap:20px;
+        }
+
+        .navbar-list li i{
+            font-size: 18px;
+        }
+
+     /* HEADER */
+
+/* CATEGORIAS */
+
+.categories{
+    gap:20px;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 10%;
+    padding:0px;
+}
+
+.categories h3{
+    text-align: center;
+}
+
+
+.categories-conteiner{
+    justify-content: space-around;
+    text-align: center;
+    gap:1rem;
+    margin-top:5%;
+   
+}
+
+.categories-conteiner h3{
+    text-align: center;
+    font-size: 80%;
+    padding:0px;
+}
+
+
+.categories-info{
+    padding:1rem;
+    text-align: center;
+
+    
+}
+
+.categories-info img{
+width: 70px;
+height: 70px;
+}
+
+
+
+.categories-info:nth-last-child(1){
+   width: 90%;  
+   padding:5%;
+}
+
+.categories-info:nth-last-child(1) i{
+   margin-top: 10px;
+   margin-left:4%
+   
+   
+}
+
+
+
+
+
+
+}
+
+
+   
+
+
+
+
+
+
+
+/* CATEGORIAS */
+
+
+
+
+
+
+
+
+
+
+/* paleta de colores */
+
+:root{  
+    --background:#0D0D0D;;
+    --backgroundcard:#252525;
+    --yellownb:#FFA400;
+    --orangenb:#FC2933;
+    --textnb:#FFFFFF;
+}
+
+/* paleta de colores */

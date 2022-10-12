@@ -28,7 +28,6 @@ body{
 
 
 
-
 /* HEADER */
 header{
     display: flex;
@@ -46,6 +45,7 @@ header{
 header img{
     width: 76px;
     height: 79px;
+ 
     top:41px;
     left:65px;
 
@@ -188,22 +188,29 @@ main {
 
 .categories{
     width: 100%;
-    max-width: 1500px;
-    margin-top: 10%;
+    max-width: 1530px;
+    margin-top: 10%;    
+    
+   
+   
 }
 
 .categories h3{
     font-size: 15px;
     font-weight: 800;
     padding:5px;
-    margin-top:3%
+    margin-top:3%;
+    margin-left:5%
+    
 }
 
 .categories-conteiner{
     display: flex;
-    gap:40px;
+    gap:60px;
    margin-top:3%;
    flex-wrap: wrap;
+   justify-content: center;
+  
 }
 
 
