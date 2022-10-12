@@ -11,7 +11,7 @@
 /* paleta de colores */
 
 
-@media screen and (min-width: 992px) and (max-width: 1100px)  {
+@media screen and (max-width: 1100px)   {
     
     
     /* HERO  */
@@ -41,27 +41,34 @@
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     
     /* HEADER */
 
-    header{
-        border-bottom: #252525 2px solid;
-        height: 70px;
-        gap:0px;
-        width: 100%;
-        padding: 0px 35px 0px 35px;
-    }
+        header{
+            border-bottom: #252525 2px solid;
+            height: 75px;
+            /* width: 100%; */
+            /* justify-content: flex-start; */
+            padding:10px;
+            width: 100%;
+            align-items: center;
+            /* max-width: 768px; */
+            /* margin:0px 10px 5px 10px, */
+            margin-bottom: unset;
 
-     header img{
-        height: 70px;
-        width: 8%;
-        padding: 10px;
-    }
+           
+        }
 
-    .navbar{
-        gap:2px;
-        /* width: 20%; */
+        header img{
+            height: 70%;
+            width: 5%;
+            
+        }
+
+        .navbar{
+            gap:20px;
+          
             
     }
 
@@ -69,9 +76,11 @@
         display: none;
     }
         
-    .navbar-list ul{
-        gap:20px;
-    }
+        .navbar-list ul{
+            gap:30px;
+            margin-left: 190%;
+            
+        }
 
     .navbar-list li i{
         font-size: 18px;
