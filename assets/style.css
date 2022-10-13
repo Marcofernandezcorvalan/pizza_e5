@@ -94,8 +94,151 @@ header img{
 /* NAVBAR */
 /* HEADER */
 
+/* CARRITO */
 
+.carrito{
+    
+    position: absolute;
+    width: 400px;
+    top: 79px;
+    right: 0;
+    padding: 50px 30px;
+    background: linear-gradient(to bottom,
+        var(--background) 62%
+        ,var(--orangenb));
+    border-left: 1px solid var(--backgroundcard);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: calc(100vh - 79px);
+    z-index: 2;
+    overflow-y: scroll;
+    display: none;
+}
 
+.carrito::-webkit-scrollbar{
+    display: none;
+}
+
+.carrito h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--textnb);
+}
+
+.carrito-item{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid var(--background); */
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: var(--backgroundcard);
+}
+
+.carrito-item img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin-right: px;
+}
+
+.item-title{
+    color: var(--textnb);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.item-bid{
+    font-weight: 300;
+    font-size: 12px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.item-precio{
+    font-size: 16px;
+    font-weight: 800;
+    background: linear-gradient(to right,#FFA100, #FB103D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.item-handler{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    gap: 10px;
+}
+
+.quantity-handler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: var(--textnb);
+    font-weight: 400;
+}
+
+.item-quantity{
+    color: var(--yellownb);
+    font-weight: 500;
+}
+
+.up{
+    border: 1px solid var(--yellownb);    
+}
+
+.down{
+    border: 1px solid var(--yellownb);    
+}
+
+.divider{
+    margin-top:20px;
+    border: 1px solid var(--background);    
+}
+
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cart-total p{
+    color: var(--textnb);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cart-total span{
+    color: var(--textnb);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-add{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: var(--textnb);
+    background: linear-gradient(to right,#FFA100, #FB103D);
+    border: none;
+}
+
+#carrito-toggle{
+    display: none;
+}
+
+#carrito-toggle:checked + .carrito{
+    display: flex;
+}
+
+/* CARRITO */
 
 /* MAIN  */
 main {
@@ -227,6 +370,9 @@ main {
 .reco-card-medium p{
     font-weight: 400;
     font-size: 14px;
+    color: var(--textnb);
+    mix-blend-mode: normal;
+    opacity: 0.3;
 }
 
 .add-reco button{
