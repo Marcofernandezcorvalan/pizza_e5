@@ -11,37 +11,43 @@
 /* paleta de colores */
 
 
-@media screen and (max-width: 1100px)   {
-    
-    
+
+@media screen and (max-width: 992px) {
+
     /* HERO  */
 
     .hero {
         margin: 200px 0px 50px 0px;
     }
-
-    .heroImagenes {
+    
+    .heroImg {
         display: none;
     }
-
+    
     .heroInfo {
         padding: unset;
         text-align: center;
         width: 100%;
     }
-
+    
     .verMas {
         align-self: flex-end;
-        margin-right: 100px;
+         margin-right: 100px;
+    }
+    
+     /* HERO  */
+
+    .popular {
+        justify-content: center;
+        padding-left: 20px;
     }
 
-    /* HERO  */
-
+    .contH2 {
+        justify-content: center;
+        align-items: center;
+    }
     
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
     
@@ -143,44 +149,7 @@
     }
 }
 
-
-/* CATEGORIAS */
-
-/* POPULAR */
-
-
-
-
-@media screen and (min-width: 992px) {
-
-    .popular {
-        justify-content: center;
-        padding-left: 20px;
-    }
-
-     .popular h2 {
-        position: absolute;
-        margin-right: 70%;
-        margin-top: -20px;
-    } 
-    
-}
-
- @media screen and (min-width: 905px) and (max-width: 992px) {
-
-    .popular {
-        justify-content: center;
-        padding-left: 20px;
-    }
-
-    .popular h2 {
-        position: absolute;
-        margin-right: 70%;
-        margin-top: -20px;
-    }
-} 
-
-@media screen and (min-width: 576px) and (max-width: 904px) {
+@media screen and (max-width: 576px) {
 
     .popular {
         justify-content: center;
@@ -198,7 +167,7 @@
     
 }
 
-@media screen and (min-width: 300px) and (max-width: 576px) {
+@media screen and (max-width: 300px)  {
 
     .popular {
         justify-content: center;
