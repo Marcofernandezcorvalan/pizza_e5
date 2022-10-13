@@ -105,7 +105,7 @@ main {
     width: 100%;
     color:#fff;
     flex-direction: column;
-    /* margin-top: 100px; */
+    max-width: 1300px;
 }
 
 /* HERO  */
@@ -113,10 +113,11 @@ main {
 .hero {
     display: flex;
     justify-content: center;
-    align-items: center;    
-    gap: 50px;
-    margin: 150px 0px 0px 0px;
-    padding: 0px 0px;
+    align-items: center; 
+    width: 1300px;  
+    gap: 200px;
+    margin: 120px 0px 0px 0px;
+    padding: 70px;
     width: 100%;
 }
 
@@ -124,7 +125,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 50px
+    /* padding-left: 50px; */
+    width: 50%;
 }
 
 .heroInfo h1 {
@@ -160,24 +162,13 @@ main {
     margin-top: 30px;
 }
 
-.heroImagenes {
+.heroImg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.pizzaIzq {
-    position: absolute;
-    width: 260px;
-}
-
-.pizzaDer {
-    width: 380px;
-    position: absolute;
-    left: 930px;
-    top: 50px;
-}
 
 /* HERO */
 
@@ -265,36 +256,38 @@ main {
 .categories{
     width: 100%;
     max-width: 1530px;
+    margin-top: 10%;    
+    
+   
+   
 }
 
 .categories h3{
     font-size: 15px;
-    font-weight: 800;
-    padding:5px;
-    margin-top:3%;
-    margin-left:5%
-    
+    font-weight: 600;
 }
 
 .categories-conteiner{
     display: flex;
-    gap:60px;
-   margin-top:3%;
+    gap: 30px;
+   /*margin-top:3%;*/ margin-top: 30px;
    flex-wrap: wrap;
    justify-content: center;
   
 }
 
-
-
 .categories-info{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     background-color: var(--backgroundcard);
     border-radius: 15px;
-    width: 147px;
-    height: 171px;
+    width: 12%;
+    height: 200px;
     text-align: center;
-    padding:13px;
+    gap: 10px; 
 }
 
 .categories-info img{
@@ -303,7 +296,7 @@ main {
 }
 
 .categories-info h3{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color:var(--textnb);
     text-align: center;
@@ -332,21 +325,25 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 155px 0px 100px 75px;
-    max-width: 1500px;
+    justify-content: center;
+    max-width: 1300px;
     gap: 38px;
+    margin-top: 150px;
+}
+
+.contH2 {
+    display: flex;
+    padding: 0px 50px;
+    width: 100%;
+
 }
 
 .popular h2 {
-    position: absolute;
-    width: 278px;
-    height: 23px;
-    /* left: 60px; */
-    /* top: 500px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
+   
 }
 
 .product_popular {

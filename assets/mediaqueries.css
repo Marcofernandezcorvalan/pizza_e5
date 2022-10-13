@@ -11,35 +11,43 @@
 /* paleta de colores */
 
 
-@media screen and (max-width: 1100px)   {
-    
-    
+
+@media screen and (max-width: 992px) {
+
     /* HERO  */
 
     .hero {
         margin: 200px 0px 50px 0px;
     }
-
-    .heroImagenes {
+    
+    .heroImg {
         display: none;
     }
-
+    
     .heroInfo {
         padding: unset;
         text-align: center;
         width: 100%;
     }
-
+    
     .verMas {
         align-self: flex-end;
-        margin-right: 100px;
+         margin-right: 100px;
+    }
+    
+     /* HERO  */
+
+    .popular {
+        justify-content: center;
+        padding-left: 20px;
     }
 
-    /* HERO  */
-
+    .contH2 {
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
-
-
 
 @media only screen and (max-width: 768px) {
     
@@ -141,8 +149,46 @@
     }
 }
 
+@media screen and (max-width: 576px) {
 
-/* CATEGORIAS */
+    .popular {
+        justify-content: center;
+        padding-left: 30px;
+        
+    }
+
+    .popular h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 300px)  {
+
+    .popular {
+        justify-content: center;
+        padding-left: 5px;
+        
+    }
+
+    .popular h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    
+}
+
+
+
+
+/* POPULAR */
 
 
 
