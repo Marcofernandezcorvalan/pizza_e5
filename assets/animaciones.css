@@ -1,0 +1,21 @@
+/* TRANSITIONS COLOR */
+
+.popular_btn:hover {
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 0%);
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+    
+
+/* TRANSITIONS COLOR */
+
+
+/* TRANSFORM SCALE */
+
+.product_popular:hover {
+    transform: scale(1.1);
+}
+
+
+/* TRANSFORM SCALE*/

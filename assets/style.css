@@ -498,6 +498,7 @@ main {
     background: #252525;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     border-radius: 15px;
+    transition: all 0.2s ease-out;
 }
 
 .product_popular img {
@@ -560,6 +561,8 @@ main {
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     border-radius: 17.5px;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
 }
 
 .popular_btn p {
@@ -611,3 +614,4 @@ footer p {
 footer p span {
     font-weight: 800;
 }
+
