@@ -105,7 +105,6 @@ main {
     width: 100%;
     color:#fff;
     flex-direction: column;
-    max-width: 1300px;
 }
 
 /* HERO  */
@@ -255,11 +254,8 @@ main {
 
 .categories{
     width: 100%;
-    max-width: 1530px;
-    margin-top: 10%;    
-    
-   
-   
+    max-width: 1300px;
+    padding: 0 70px;
 }
 
 .categories h3{
@@ -446,14 +442,21 @@ footer {
 }
 
 
+.list-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
 .links a {
     color: #fff;
-    padding: 15px;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 17px;
 }
 
 footer p span {
