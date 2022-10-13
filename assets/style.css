@@ -181,7 +181,83 @@ main {
 
 /* HERO */
 
+/* Recomendado */
+.recomendado{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    max-width: 1300px;
+    width: 100%;
+}
 
+.recomendado h2{
+    text-align: start;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(#FFFFFF);
+}
+
+.reco-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    justify-content: center;
+    gap: 30px;   
+}
+
+.reco-card{
+    display: flex;
+    min-width: 340px;
+    padding: 20px 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background: var(--backgroundcard);
+}
+
+.info-reco-card{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.reco-card-top h3{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.reco-card-medium{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+
+.reco-card-medium p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.add-reco button{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 17.5px;
+    color: var(--textnb);
+    background: linear-gradient(to right,#FFA100, #FB103D);
+    border: none;
+}
+
+.reco-card-bot span{
+    font-weight: 700;
+    font-size: 19px;
+    background: linear-gradient(to right,#FFA100, #FB103D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* Recomendado */
 
 
 /* CATEGORIES */
@@ -189,10 +265,6 @@ main {
 .categories{
     width: 100%;
     max-width: 1530px;
-    margin-top: 10%;    
-    
-   
-   
 }
 
 .categories h3{
