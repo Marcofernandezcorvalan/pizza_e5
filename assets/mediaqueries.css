@@ -42,57 +42,55 @@
         padding-left: 20px;
     }
 
+<<<<<<< HEAD
     .contH2 {
         justify-content: center;
         align-items: center;
     }
     
+=======
+    /* HERO  */
+
+>>>>>>> header
 }
 
 @media only screen and (max-width: 768px) {
     
     /* HEADER */
-
         header{
-            border-bottom: #252525 2px solid;
-            height: 75px;
-            /* width: 100%; */
-            /* justify-content: flex-start; */
-            padding:10px;
+            justify-content: space-between;
+            padding:1rem;
             width: 100%;
-            align-items: center;
-            /* max-width: 768px; */
-            /* margin:0px 10px 5px 10px, */
-            margin-bottom: unset;
-
-           
+            height: 10%;
+            margin-bottom: 10%;
+            border-bottom: 1px solid var(--backgroundcard);
         }
 
         header img{
-            height: 70%;
-            width: 5%;
-            
+            width: 3rem;
+            height: 3rem;
+            left: 0px;
         }
 
         .navbar{
-            gap:20px;
-          
-            
-    }
-
-    .navbar-list  li a:nth-child(2){
-        display: none;
-    }
+            display: flex;
+            justify-content: space-between;
+           
+        }
         
         .navbar-list ul{
             gap:30px;
-            margin-left: 190%;
+            justify-content: flex-end;       
+        }
+        
+        .navbar-list li i{
+            font-size: 170%;
             
         }
-
-    .navbar-list li i{
-        font-size: 18px;
-    }
+        
+        .navbar-list a:nth-child(2){
+            display: none;
+        }
 
     /* HEADER */ 
      
@@ -149,6 +147,7 @@
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 576px) {
 
     .popular {
@@ -194,6 +193,10 @@
 
 
 /* POPULAR */
+=======
+
+/* CATEGORIAS */
+>>>>>>> header
 
 
 

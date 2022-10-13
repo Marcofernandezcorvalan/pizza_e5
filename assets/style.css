@@ -45,7 +45,7 @@ header{
 header img{
     width: 76px;
     height: 79px;
- 
+    
     top:41px;
     left:65px;
 
@@ -56,7 +56,7 @@ header img{
 .navbar{
     display: flex;
     padding: 10px;
-    align-items: center;
+    align-items:flex-end;
     justify-content: space-between;
    
 }
@@ -254,13 +254,17 @@ main {
 
 .categories{
     width: 100%;
-    max-width: 1300px;
-    padding: 0 70px;
+    max-width: 1530px;
+    margin-top: 10%;    
 }
 
 .categories h3{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 800;
+    padding:5px;
+    margin-top:3%;
+    margin-left:11%
+    
 }
 
 .categories-conteiner{
@@ -269,7 +273,6 @@ main {
    /*margin-top:3%;*/ margin-top: 30px;
    flex-wrap: wrap;
    justify-content: center;
-  
 }
 
 .categories-info{ 
