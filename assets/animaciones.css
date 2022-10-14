@@ -19,3 +19,21 @@
 
 
 /* TRANSFORM SCALE*/
+
+.navbar-list li{
+    transition: all 400ms ease;
+}
+.navbar-list li:hover{
+    transform: scale(1.1);
+ }
+
+.categories-info{
+    transition: all 400ms ease;
+}
+
+.categories-info:hover{
+    transform: scale(1.1);
+}
+
+
+

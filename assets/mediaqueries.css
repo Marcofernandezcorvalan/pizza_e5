@@ -119,6 +119,7 @@
         justify-content: center;
         font-size: 80%;
         padding:0px;
+        margin: auto;
     }   
 
 
@@ -130,6 +131,7 @@
     .categories-info img{
         width: 70px;
         height: 70px;
+        /* margin: auto; */
     }
 
     .categories-info:nth-last-child(1){
@@ -138,12 +140,12 @@
     
     .categories-info:nth-last-child(1) img{
         margin-top: 2%;
+        
     }
     
 
     .categories-info:nth-last-child(1) i{
         margin-top: 10px;
-        margin-left:4%
     }
 }
 
