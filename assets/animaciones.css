@@ -20,12 +20,16 @@
 
 /* TRANSFORM SCALE*/
 
-.navbar-list li{
+.navbar-list li, i{
     transition: all 400ms ease;
 }
-.navbar-list li:hover{
-    transform: scale(1.1);
+.navbar-list li i:hover{
+    transform: scale(1.2);
  }
+
+.navbar-list li a:hover{
+    color:#FFA400    
+}
 
 .categories-info{
     transition: all 400ms ease;
