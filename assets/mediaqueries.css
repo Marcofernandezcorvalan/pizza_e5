@@ -151,6 +151,16 @@
 
 @media screen and (max-width: 576px) {
 
+    .hero {
+        margin: 100px 0px 0px 0px;
+    }
+
+
+    .verMas {
+        align-self: center;
+        margin: 40px 0px 0px 0px;
+    }
+
     .popular {
         justify-content: center;
         padding-left: 30px;
@@ -172,7 +182,19 @@
     
 }
 
-@media screen and (max-width: 300px)  {
+@media screen and (max-width: 350px)  {
+
+    .heroInfo h1 {
+        font-size: 40px;
+    }
+
+    .heroInfo h2 {
+        font-size: 27px;
+    }
+
+    .heroInfo p {
+        font-size: 12px;
+    }
 
     .popular {
         justify-content: center;
