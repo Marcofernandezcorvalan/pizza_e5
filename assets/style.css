@@ -101,7 +101,7 @@ header img{
     
     position: absolute;
     width: 400px;
-    top: 79px;
+    top: 100%;
     right: 0;
     padding: 50px 30px;
     background: linear-gradient(to bottom,
@@ -418,6 +418,8 @@ main {
     display: flex;
     gap: 40px;
    margin-top: 2%;
+   margin-left: 2%;
+   margin-right: 2%;
    flex-wrap: wrap;
    justify-content: center;
 }
@@ -616,4 +618,9 @@ footer p {
 footer p span {
     font-weight: 800;
 }
+
+
+
+/* PRUEBA */
+
 
