@@ -482,7 +482,7 @@ main {
 
 .contH2 {
     display: flex;
-    padding: 0px 50px;
+    padding: 0px 20px;
     width: 100%;
 
 }
@@ -496,8 +496,6 @@ main {
 }
 
 .product_popular {
-    
-    margin-top:3%;
     padding: 15px 3px;
     background: #252525;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
