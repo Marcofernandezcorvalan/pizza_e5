@@ -24,6 +24,10 @@
 body{
     background-color:var(--background);
     color:var(--textnb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 html{
@@ -129,13 +133,22 @@ header img{
 
 .carrito-item{
     display: flex;
-    position: relative;
+   justify-content: center;
     align-items: center;
     gap: 20px;
     /* border: 1px solid var(--background); */
     border-radius: 10px;
     padding: 5px 10px;
     background: var(--backgroundcard);
+    justify-content: space-between;
+}
+
+.item-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    width: 150px;
 }
 
 .carrito-item img{
@@ -170,7 +183,6 @@ header img{
 .item-handler{
     display: flex;
     align-items: center;
-    position: absolute;
     right: 20px;
     gap: 10px;
 }
@@ -249,6 +261,7 @@ main {
     width: 100%;
     color:#fff;
     flex-direction: column;
+    max-width: 1300px;
 }
 
 /* HERO  */
@@ -319,17 +332,19 @@ main {
 .recomendado{
     display: flex;
     flex-direction: column;
-    padding: 70px;
+    /* padding: 70px; */
     max-width: 1300px;
     width: 100%;
+    gap: 50px;
+    margin: 100px 0px;
 }
 
 .recomendado h2{
     text-align: start;
-    margin-bottom: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     color: var(#FFFFFF);
+    padding: 0px 20px;
 }
 
 .reco-container{
@@ -401,44 +416,42 @@ main {
 
 .categories{
     width: 100%;
-    max-width: 1530px;
-   
+    gap: 30px;
+    margin-top: 50px;
 }
 
-.categories h3{
-    font-size: 15px;
-    font-weight: 800;
-    padding:5px;
-    margin-top:3%;
-    margin-left:11%
-    
+.categories h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 20px;
+    margin-bottom: 60px;
 }
 
 .categories-conteiner{
     display: flex;
+    align-items: center;
     gap: 40px;
-   margin-top: 2%;
-   margin-left: 2%;
-   margin-right: 2%;
-   flex-wrap: wrap;
-   justify-content: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .categories-info{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-     background-color: var(--backgroundcard);
+    background-color: var(--backgroundcard);
     border-radius: 15px;
-    width: 147px;
-    height: 171px;
-    text-align: center;
+    width: 10%;
+    height: 30%;
+    padding: 15px;
     gap: 10px; 
 }
 
 .categories-info img{
     width: 50%;
     height: 40%;
-    margin-top: 10%;
-   
 }
 
 
@@ -490,7 +503,7 @@ main {
 .popular h2 {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
    
 }

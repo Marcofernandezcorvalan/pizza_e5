@@ -39,12 +39,35 @@
 
     .popular {
         justify-content: center;
-        padding-left: 20px;
+        margin-bottom: 100px;
     }
 
     .contH2 {
         justify-content: center;
         align-items: center;
+    }
+
+    .recomendado h2 {
+        text-align: center;
+    }
+
+    .categories-conteiner {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .categories-info {
+        padding: 10px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .categories-info h3 {
+        font-size: 8px;
+    }
+
+    .categories h2 {
+        text-align: center;
     }
     
 }
@@ -90,6 +113,8 @@
 
     /* HEADER */ 
      
+   
+
     /* CATEGORIAS */
 
     .categories{
@@ -100,19 +125,18 @@
         padding:0px;
     }
 
-    .categories h3{
-        text-align: center;
-        margin-left: 0;
+
+    .categories-conteiner {
+        flex-direction: column;
     }
 
-
-    .categories-conteiner{
+    /* .categories-conteiner{
         justify-content: space-around;
         text-align: center;
         gap:1rem;
         margin-top:5%;
    
-    }
+    } */
 
     .categories-conteiner h3{
         text-align: center;
@@ -122,9 +146,10 @@
         margin: auto;
     }   
 
-
     .categories-info{
-        padding:1rem;
+        width: 50%;
+        height: 60%;
+        padding: 20px;
         text-align: center;
     }
 
@@ -134,11 +159,6 @@
         margin: auto;
     }
 
-    
-    .categories-info{
-        width: 70%
-    }
-    
     .categories-info:nth-last-child(1) img{
         margin-top: 2%;
         
@@ -159,16 +179,22 @@
         margin: 100px 0px 0px 0px;
     }
 
+    .heroInfo h1 {
+        font-size: 45px;
+    }
 
     .verMas {
         align-self: center;
         margin: 40px 0px 0px 0px;
     }
 
+
+    .categories-info {
+        width: 60%;
+    }
+
     .popular {
-        justify-content: center;
-        padding-left: 30px;
-        
+        justify-content: center; 
     }
 
     .popular h2 {
@@ -224,6 +250,10 @@
 
     .categories h3{
         font-size: 20px;
+    }
+
+    .categories-info {
+        width: 100%;
     }
 
 
